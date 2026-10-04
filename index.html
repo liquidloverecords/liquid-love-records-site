@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Liquid Love Records — modern digital music label storefront for electronic music, exclusive releases, and live events."
+    />
+    <title>Liquid Love Records</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script async src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
+    <div
+      hidden
+      id="snipcart"
+      data-api-key="YOUR_SNIPCART_PUBLIC_KEY"
+      data-config-modal-style="side"
+      data-cart-origin="https://app.snipcart.com"
+    ></div>
+  </head>
+  <body>
+    <nav class="topbar">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">LL</span>
+          <span>Liquid Love</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#releases">Releases</a></li>
+          <li><a href="#artists">Artists</a></li>
+          <li><a href="#store">Store</a></li>
+          <li><a href="#shows">Shows</a></li>
+          <li><a href="magazine.html">Journal</a></li>
+          <li><a href="https://liquidloverecords.bandcamp.com/" target="_blank" rel="noreferrer">Bandcamp</a></li>
+        </ul>
+
+        <button class="cart-button" type="button" aria-label="View cart">
+          Cart <span id="cart-count">0</span>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero" id="releases">
+        <div class="container hero-grid">
+          <div class="hero-art">
+            <div class="art-card glow">
+              <img
+                src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=80"
+                alt="Liquid Love Records latest release"
+              />
+            </div>
+          </div>
+
+          <div class="hero-copy">
+            <p class="section-kicker">Latest release</p>
+            <h1>Glass Horizon</h1>
+            <p class="lede">
+              From deep-space synth notes to pulse-lit club pressure, Liquid Love Records curates
+              electronic music that feels both intimate and cinematic.
+            </p>
+
+            <div class="cta-row">
+              <a class="button primary" href="https://liquidloverecords.bandcamp.com/album/llr007-fast-trax" target="_blank" rel="noreferrer">Buy now</a>
+              <a class="button secondary" href="#store">Browse store</a>
+            </div>
+
+            <div class="meta-row">
+              <span><strong>Label:</strong> Liquid Love Records</span>
+              <span><strong>Format:</strong> Digital / Limited</span>
+              <span><strong>Style:</strong> Electronic / Dream Pop</span>
+            </div>
+
+            <div class="audio-box">
+              <div class="audio-topline">
+                <span>Preview</span>
+                <strong>Night Signal</strong>
+              </div>
+              <audio controls controlsList="nodownload">
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="artists" id="artists">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-kicker">Artists</p>
+            <h2>Voices of the label</h2>
+          </div>
+
+          <div class="artist-grid">
+            <article class="artist-card">
+              <img
+                src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80"
+                alt="Lou Fre$h"
+              />
+              <div class="artist-info">
+                <h3>Lou Fre$h</h3>
+                <p>Sharp edge, soft center, and cinematic percussion built for late-night motion.</p>
+                <a href="https://liquidloverecords.bandcamp.com/track/clique" target="_blank" rel="noreferrer">Listen now</a>
+              </div>
+            </article>
+
+            <article class="artist-card">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80"
+                alt="Aasi"
+              />
+              <div class="artist-info">
+                <h3>Aasi</h3>
+                <p>Atmospheric pulses and precision rhythm designed for deep listening and dancefloor lift.</p>
+                <a href="https://liquidloverecords.bandcamp.com/track/turn-it-up" target="_blank" rel="noreferrer">Listen now</a>
+              </div>
+            </article>
+
+            <article class="artist-card">
+              <img
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+                alt="Saligo"
+              />
+              <div class="artist-info">
+                <h3>Saligo</h3>
+                <p>Dream-pop textures with emotional clarity and a tactile, club-ready sense of motion.</p>
+                <a href="https://liquidloverecords.bandcamp.com/track/in-my-bones-2?action=download" target="_blank" rel="noreferrer">Listen now</a>
+              </div>
+            </article>
+
+            <article class="artist-card">
+              <img
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80"
+                alt="Various artists"
+              />
+              <div class="artist-info">
+                <h3>Various Artists</h3>
+                <p>Curated selector sets and label comps for the full Liquid Love moodboard.</p>
+                <a href="https://liquidloverecords.bandcamp.com/album/llr007-fast-trax" target="_blank" rel="noreferrer">Explore</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="store" id="store">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-kicker">Digital store</p>
+            <h2>Download the latest releases</h2>
+          </div>
+
+          <div class="store-grid">
+            <article class="product-card">
+              <img
+                src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80"
+                alt="LLR007 Fast Trax"
+              />
+              <div class="product-body">
+                <span class="tag">Compilation</span>
+                <h3>LLR007: FAST TRAX</h3>
+                <p>Breaks, ghettotech, Miami bass, and drum & bass from across the label roster.</p>
+                <div class="product-row">
+                  <span class="price">$12</span>
+                  <button
+                    class="button tiny snipcart-add-item"
+                    type="button"
+                    data-item-id="llr007-fast-trax"
+                    data-item-name="LLR007: FAST TRAX"
+                    data-item-price="12.00"
+                    data-item-url="index.html"
+                    data-item-description="Compilation featuring Liquid Love Records artists."
+                    data-item-image="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=400&q=80"
+                  >
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+                alt="Clique"
+              />
+              <div class="product-body">
+                <span class="tag">Single</span>
+                <h3>Clique</h3>
+                <p>Lou Fre$h. A sharp, luminous club cut built around motion and memory.</p>
+                <div class="product-row">
+                  <span class="price">$5</span>
+                  <button
+                    class="button tiny snipcart-add-item"
+                    type="button"
+                    data-item-id="clique"
+                    data-item-name="Clique"
+                    data-item-price="5.00"
+                    data-item-url="index.html"
+                    data-item-description="Clique by Lou Fre$h."
+                    data-item-image="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80"
+                  >
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80"
+                alt="Turn It Up"
+              />
+              <div class="product-body">
+                <span class="tag">Single</span>
+                <h3>Turn It Up</h3>
+                <p>Aasi’s kinetic, future-facing release for low-lit rooms and open-air sets.</p>
+                <div class="product-row">
+                  <span class="price">$5</span>
+                  <button
+                    class="button tiny snipcart-add-item"
+                    type="button"
+                    data-item-id="turn-it-up"
+                    data-item-name="Turn It Up"
+                    data-item-price="5.00"
+                    data-item-url="index.html"
+                    data-item-description="Turn It Up by Aasi."
+                    data-item-image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+                  >
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80"
+                alt="In My Bones"
+              />
+              <div class="product-body">
+                <span class="tag">Single</span>
+                <h3>In My Bones</h3>
+                <p>Saligo brings deep emotion and tactile synth detail to this intimate release.</p>
+                <div class="product-row">
+                  <span class="price">$5</span>
+                  <button
+                    class="button tiny snipcart-add-item"
+                    type="button"
+                    data-item-id="in-my-bones"
+                    data-item-name="In My Bones"
+                    data-item-price="5.00"
+                    data-item-url="index.html"
+                    data-item-description="In My Bones by Saligo."
+                    data-item-image="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=400&q=80"
+                  >
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="journal-preview">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-kicker">Journal</p>
+            <h2>From the label desk</h2>
+          </div>
+
+          <div class="journal-grid">
+            <article class="story-card">
+              <span>News</span>
+              <h3>Liquid Love grows its winter roster with three new live sessions.</h3>
+              <a href="magazine.html">Read article</a>
+            </article>
+
+            <article class="story-card">
+              <span>Press</span>
+              <h3>“Fast Trax” is a label snapshot of the club’s new emotional intensity.</h3>
+              <a href="magazine.html">Read article</a>
+            </article>
+
+            <article class="story-card">
+              <span>Artist feature</span>
+              <h3>Aasi on atmosphere, hardware, and building sets that feel alive.</h3>
+              <a href="magazine.html">Read article</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="tour" id="shows">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-kicker">Shows</p>
+            <h2>Upcoming dates</h2>
+          </div>
+
+          <div class="tour-list">
+            <div class="tour-item">
+              <div class="date">Nov 12, 2026</div>
+              <div class="venue">Montreal, QC — Le Studio</div>
+              <a class="ticket-link" href="https://liquidloverecords.bandcamp.com/" target="_blank" rel="noreferrer">Tickets</a>
+            </div>
+
+            <div class="tour-item">
+              <div class="date">Nov 15, 2026</div>
+              <div class="venue">Toronto, ON — The Drake</div>
+              <a class="ticket-link" href="https://liquidloverecords.bandcamp.com/" target="_blank" rel="noreferrer">Tickets</a>
+            </div>
+
+            <div class="tour-item">
+              <div class="date">Nov 21, 2026</div>
+              <div class="venue">New York, NY — Elsewhere</div>
+              <span class="sold">Sold out</span>
+            </div>
+
+            <div class="tour-item">
+              <div class="date">Dec 04, 2026</div>
+              <div class="venue">Berlin, DE — Ritter Butzke</div>
+              <a class="ticket-link" href="https://liquidloverecords.bandcamp.com/" target="_blank" rel="noreferrer">Tickets</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>© 2026 Liquid Love Records</div>
+        <div>Independent digital label — Montréal / Paris</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
